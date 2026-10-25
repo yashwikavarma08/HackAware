@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#0077B6" />
+      <stop offset="100%" stop-color="#0B132B" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#38EF7D" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield Outline -->
+  <path d="M 100 20 L 170 50 C 170 120 100 170 100 170 C 100 170 30 120 30 50 Z" 
+        fill="url(#shieldGrad)" stroke="#00F0FF" stroke-width="4" />
+  <!-- Inner Circuit / Node Accent -->
+  <circle cx="100" cy="85" r="18" fill="#0B132B" stroke="#00F0FF" stroke-width="3" />
+  <!-- Keyhole icon inside center -->
+  <path d="M 96 82 A 4 4 0 1 1 104 82 L 106 95 L 94 95 Z" fill="#00F0FF" />
+  <!-- Checkmark / Scan Accent -->
+  <path d="M 65 105 L 85 125 L 140 70" fill="none" stroke="url(#glowGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
